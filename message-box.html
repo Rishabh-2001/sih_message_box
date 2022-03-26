@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="message.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="message-container">
+         <aside>
+             <div class="icon-head">
+             <!--icon-->
+         
+             <h1 class="heading">mailbox</h1>
+             <div class="line"></div>
+            </div>
+             <button class="compose">compose</button>
+             <ul class="lists">
+                  <li class="list-items">Drafts</li>
+                  <li class="list-items">Important</li>
+                  <li class="list-items">Trash</li>
+             </ul>
+             <div class="line-blue"></div>
+             <ul class="category">
+             <li class="category-items">Personal</li>
+             <li class="category-items">Work</li>
+            </ul>
+             <!--icon-->
+             <p class="add">Add</p>
+         </aside>
+
+         
+         <main>
+            <nav>
+                <div class="moment">
+               <p class="date">MARCH 25,2022</p>
+               <p class="time">9:02 A.M</p>
+           </div>
+           <div class="account">
+               <!--svg account-->
+               <p class="userid">Username</p>
+               <!--svg signout-->
+               <p class="logout">Sign Out</p>
+           </div>
+            </nav>
+
+            <div class="text-head">
+                <ul class="bookmarks">
+                    <li>svg1</li>
+                    <li>svg2</li>
+                    <li>svg3</li>
+                </ul>
+<div class="dropdown">
+                <label for="message-type" class="type">Message Type</label>
+<select name="Select Type" id="message" class="mySelect">
+  <option value="Notice">Notice</option>
+  <option value="Alert">Alert</option>
+  <option value="Warning">Warning</option>
+  <option value="Important">Important</option>
+</select>
+</div>
+<ul class="tools">
+    <li class="tools-items fonts">A</li>
+    <li class="tools-items bold">B</li>
+    <li class="tools-items italic">I</li>
+    <li class="tools-items color">A</li>
+    <li class="tools-items underline">U</li>
+</ul>
+</div>
+<textarea name="Message-area" id="content" cols="50" rows="25" placeholder="Enter Your Message"></textarea>
+<div class="attach-emoji">
+    <ul class="attach">
+        <li class="attach-items">svg1</li>
+        <li class="attach-items">svg2 image</li>
+        <li class="attach-items">svg3 emoji</li>
+    </ul>
+</div>
+
+<button class="send-btn">Send</button>
+
+            </div>
+         </main>
+    </div>
+    
+</body>
+</html>

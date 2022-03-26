@@ -1,0 +1,231 @@
+*,*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #f7f5e6;
+}
+.message-container
+{
+    display: flex;
+    flex-direction: row;
+}
+aside{
+    width: 16%;
+   background-color: f7f5e6;
+   box-shadow: 1px 10px 10px 5px #333a56;
+   margin-right: 2em;
+}
+main{
+    width: 90%;
+    margin: 0 auto;
+    /* background: cyan; */
+    background-color: aliceblue;
+}
+.icon-head{
+    background-color: #333a56;
+    color: white;
+    padding: 1em .5em;
+}
+
+.heading{
+        text-transform: uppercase;
+        font-size: 2rem;
+        letter-spacing: .1em;
+        font-family: 'Lato', sans-serif;
+        cursor: pointer;
+}
+.line{
+    margin-top: .5em;
+    border-bottom: 8px solid white;
+}
+.compose{
+    background: #333a56;
+    color: white;
+    padding: .5em 2em;
+    margin: 1em auto;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-family: 'Lato', sans-serif;
+    letter-spacing: .2em;
+    position: relative;
+    left: 15%;
+}
+aside ul{
+    padding: 1em 1em;
+    list-style: none;
+}
+aside li{
+    margin: 1em .5em;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: .2em;
+    color: #333a56;
+
+}
+.line-blue{
+    margin-top: .5em;
+    border-bottom: 8px solid #333a56;
+}
+.add{
+    font-family: 'Lato', sans-serif;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-left: 60px;
+    color: #333a56;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+nav{
+    width: 100%;
+    background-color: #333a56;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1em 0.5em;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 1.4rem;
+    letter-spacing: .1em;
+}
+nav .account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.account p{
+    margin-right: .6em;
+
+}
+.text-head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+.text-head ul{
+    padding: 1em 1em;
+    list-style: none;
+    
+}
+.text-head li{
+    display: inline-block;
+
+}
+select {
+    appearance: none;
+    outline: 0;
+    background: #333a56;
+    background-image: none;
+    /* width: 100%;
+    height: 100%; */
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: .5em 1em;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+}
+ 
+.select {
+    position: relative;
+    display: block;
+    width: 15em;
+    height: 2em;
+    line-height: 3;
+    overflow: hidden;
+    border-radius: .25em;
+    padding-bottom: 10px;
+}
+.type{
+    font-size: 1rem;
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+
+}
+textarea{
+    width: 96%;
+    margin: 0 auto;
+    border: 0;
+    outline: 0;
+    border-radius: 22px;
+    padding: .8em .5em;
+    font-size: 1rem;
+    background-color: #f7f5e6;
+}
+.textarea:focus,
+.textarea:active{
+    border: 2px solid #333a56;
+}
+
+
+.attach-emoji{
+    display: flex;
+    margin-top: .5em;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: fit-content;
+    background-color: #333a56;
+    border-radius: 22px;
+    margin-left: .8em;
+    color: white;
+}
+.attach{
+    padding: 1em 1em;
+    list-style: none;
+
+}
+.attach li{
+    display: inline-block;
+    margin-right: .8em;
+}
+.send-btn{
+    width: fit-content;
+    margin: 0 auto;
+    padding: .5em 2em;
+    font-size: 1.25rem;
+    text-transform: uppercase;
+    font-size: 'Bebas Neue', cursive;
+    border-radius: 22px;
+    border: 0;
+    outline: 0;
+    background-color: #333a56;
+    color: white;
+
+}
+.tools{
+    width: 50%;
+    margin-top: 1em;
+    background-color:#6e7e90;
+    border-radius: 22px 22px 2px 2px;
+}
+.tools-items{
+    margin-right: 1em;
+}
+.fonts{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bold{
+    font-weight: 900;
+}
+.italic{
+    font-style: italic;
+}
+.underline{
+    text-decoration: underline;
+}
+
+.color{
+    color: red;
+}
