@@ -4,11 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Message_page</title>
     <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="message.css">
     <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lato:ital,wght@0,700;0,900;1,100;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="message-container">
@@ -51,9 +52,9 @@
 
             <div class="text-head">
                 <ul class="bookmarks">
-                    <li>svg1</li>
-                    <li>svg2</li>
-                    <li>svg3</li>
+                    <li><i class="fa-solid fa-bookmark"></i></li>
+                    <li><i class="fa-solid fa-star"></i></li>
+                    <li><i class="fa-solid fa-trash"></i></li>
                 </ul>
 <div class="dropdown">
                 <label for="message-type" class="type">Message Type</label>
@@ -72,17 +73,16 @@
     <li class="tools-items underline">U</li>
 </ul>
 </div>
+<input type="text" class="subject" placeholder="Subject">
 <textarea name="Message-area" id="content" cols="50" rows="25" placeholder="Enter Your Message"></textarea>
 <div class="attach-emoji">
     <ul class="attach">
-        <li class="attach-items">svg1</li>
-        <li class="attach-items">svg2 image</li>
-        <li class="attach-items">svg3 emoji</li>
+        <li class="attach-items"><i class="fa-solid fa-paperclip"></i></li>
+        <li class="attach-items"><i class="fa-solid fa-image"></i></li>
+        <li class="attach-items"><i class="fa-solid fa-face-grin"></i></li>
     </ul>
 </div>
-
 <button class="send-btn">Send</button>
-
             </div>
          </main>
     </div>
